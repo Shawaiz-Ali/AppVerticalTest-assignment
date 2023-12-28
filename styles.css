@@ -10,8 +10,7 @@ body,html{
     height:100vh;
     padding: 0;
     margin: 0;
-
-     /* overflow-x:hidden;  */
+    /* overflow-x:scroll;  */
 }
  /* section # 12 Footer */
  .row-sec12{
@@ -807,7 +806,7 @@ border: 0;
     font-size: 1rem;
     letter-spacing: 1.1px;
     text-decoration: none;
-    padding: 3.1rem 5.9rem;
+    padding: 3.1rem 5rem;
     color: Red;
     font-weight: 600;
 }
@@ -895,21 +894,33 @@ border: 0;
     width:100%;
    
  }
+ .h4-sec6 h1{
+    font-size: 1rem;
+   
+} 
  .h4-sec6 h4{
     font-size: 1rem;
     
     
     
     }
-    
+    .btn4{
+        width:14rem;
+       }
+    .btn5{
+        width:14rem;
+       }
  .h4-sec6 h1{
         font-size: 1.1rem;
         }
-.btn5 > a {
+ .btn4 > a{
+            padding: 3rem 2rem;
+    }
+.btn4 > a {
             font-size: 12px;
          }
  .btn5 > a {
-    font-size: 12px;
+    font-size: 9px;
  }
 }
 /* section # 5 */
@@ -1964,6 +1975,16 @@ border: 0;
         width: 10.62rem;
         
        }
+    .h41 > h3{
+        display:block;
+         font-size: 1.2rem;
+         
+     }
+    .h41 > h1{
+         display:block; 
+         font-size: 2.2rem;
+  
+     }
  }
 
 @media (max-width: 756px){
@@ -1988,6 +2009,16 @@ border: 0;
        
     
      }
+     .h41 > h3{
+        display:block;
+         font-size: 1rem;
+         
+     }
+    .h41 > h1{
+         display:block; 
+         font-size: 1.8rem;
+  
+     }
    
 }
 @media (max-width:580px){
@@ -2008,6 +2039,20 @@ border: 0;
        
         line-height: 1.5rem;
        }
+       .h41{
+        margin-top: 1.8rem;
+
+       }
+       .h41 > h3{
+        display:block;
+         font-size: 1.4rem;
+         
+     }
+     .h41 > h1{
+         display:block; 
+         font-size: 1.8rem;
+  
+     }
 
  }
 
@@ -2027,8 +2072,9 @@ border: 0;
 
 }
 .container-sec1{
+    
     clear:both;
-    height:auto;
+    height:180vh;
     text-align: center;
     width: 100%;
 }
@@ -2171,8 +2217,9 @@ div > h1 {
     }
     .imgs1{
         background: transparent;
+        width:8rem;
         opacity: 8;
-        padding: 0.5rem 0.1rem;
+        padding: 0.2rem 0.1rem;
         
     }
     .imgs12{
@@ -2181,6 +2228,7 @@ div > h1 {
         background: transparent;
         opacity: 8;
         padding: 0.5rem 0.1rem;
+        margin-top: 1rem;
         
     }
 }
@@ -2328,7 +2376,7 @@ nav.container-nav{
     .navbar-nav{
       position:fixed;
       top:55px;
-      left:-120vh;
+      left:-220vh;
       height:55vh;
       width: 100%;
      background-color: #fff;
